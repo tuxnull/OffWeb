@@ -10,6 +10,14 @@
 		<div class="container">
 			<h1>Welcome to the OffWeb!</h1>
 			<p>An offline copy of the internet</p>
+			<hr>
+			<form action="redir_handler.php">
+				Enter Application URI:
+				<input type="text" name="uri">
+				<button>Go!</button>
+			</form>
+			<hr>
+			<a href="./archive/">Browse the complete Archive</a>
 		</div>
 		<?PHP
 			
