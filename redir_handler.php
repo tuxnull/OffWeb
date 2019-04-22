@@ -4,11 +4,12 @@
 if(isset($_GET["uri"])){
 	$app_uri = $_GET["uri"];
 	$app_uri = trim($app_uri);
-	if(file_exists("./archive/".$app_uri."/META.INF")){
+	if(file_exists("./archive/".explode('/',$app_uri)[0]."/META.INF")){
 		if (strpos($app_uri, '/') !== false) {
-			$rep = file_get_content("http://127.0.0.1/archive/".$app_uri);
+			$rep = file_get_contents("http://127.0.0.1/archive/".$app_uri);
+			echo $rep;
 		}else{
-			echo file_get_content("http://127.0.0.1/archive/".$app_uri."/index.php");
+			echo file_get_contents("http://127.0.0.1/archive/".$app_uri."/index.php");
 		}
 	}else{
 		echo '<div class="feature">Error: Application either does not exist or META.INF missing.</div>';
