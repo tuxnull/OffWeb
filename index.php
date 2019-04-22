@@ -17,7 +17,7 @@
 				<button>Go!</button>
 			</form>
 			<hr>
-			<a href="./archive/">Browse the complete Archive</a>
+			<a href="./archive/">Browse the complete Archive</a> | <a href="https://github.com/tuxnull/OffWeb/issues/new">Add your App to the OffWeb!</a>
 		</div>
 		<?PHP
 			
