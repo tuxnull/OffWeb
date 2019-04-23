@@ -13,6 +13,18 @@ html {
 	font-weight: 700;
 }
 
+.feature a{
+	text-decoration: none;
+	color: black;
+}
+
+.header{
+    background-color: rgb(228,228,230);
+	color: black;
+	font-size: 1.3em;
+	padding: 10px;
+}
+
 @media only screen and (min-width: 600px) {
 	.container{
 		padding-left: 15%;

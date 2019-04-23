@@ -20,7 +20,7 @@ To access OffWeb in your browser, simply type "localhost" or "127.0.0.1" in the 
 
 ## Add your Web-App to the OffWeb!
 To add your personal webapp to the OffWeb, you will have to meet the following criteria:
-- Your web-app's size is below or equal to 16KB (without Media)
+- Your web-app's size is below or equal to 32KB (without Media)
 - Media (Images, Videos, Sounds, etc.) must be below 30KB in size per file.
 - Your web-app works without an active internet connection
 
